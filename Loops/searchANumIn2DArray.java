@@ -8,9 +8,14 @@ public class searchANumIn2DArray {
             for (int j = 0; j < intArray.length; j++){
                 if (intArray[i][j] == searchNumber){
                     isFound = true;
+                    System.out.println("The value found at: " + "[" + i+ "," + j + "]");
+
                 }
             }
             System.out.println();
+        }
+        if (!isFound){
+            System.out.println("The value is not Found.");
         }
         System.out.println("The value is Found: " +isFound);
     }
