@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 /* 2 arrays are given
  * Array1 = [ "Cheater", "god", "root", "peach" ] 
- * Array2 = [ "torso", "teaher", "apple", "dog" ] 
+ * Array2 = [ "torso", "teacher", "apple", "dog" ] 
  * find the words of Array1 that are anagram(has all the letters same)in Array2
  */
 public class anagramMatcher {
